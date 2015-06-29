@@ -1,0 +1,8 @@
+Package: com.dyme.iosbd
+Name: iosbd
+Version: 1.0
+Section: app
+Architecture: iphoneos-arm
+Description: A persistent backdoor for ios
+Author: Dyme <email@domain.whatever>
+Maintainer: Dyme <email@domain.whatever>
