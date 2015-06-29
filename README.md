@@ -1,5 +1,5 @@
 # iOSbd
-iOSbd is a simple yet practical tool that will allow you to place a persistent backdoor inside of any cydia package disered. iOSbd relies on metasploit for it's payload, and LaunchDaemons for it's persistence. `ios_dump.rb` is a metasploit post module compatible with iOSbd, and can be installed by simply moving it to the `post/osx/gather/` directory.
+iOSbd is a simple yet practical tool that will allow you to place a persistent backdoor inside of any cydia package desired. iOSbd relies on metasploit for it's payload, and LaunchDaemons for it's persistence. `ios_dump.rb` is a metasploit post module compatible with iOSbd, and can be installed by simply moving it to the `post/osx/gather/` directory.
 
 Dependencies
 --------------
